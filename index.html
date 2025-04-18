@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPEM - Projet Éducatif</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>OPEM</h1>
+
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li data-tab="accueil" class="active">ACCUEIL</li>
+                <li data-tab="mathematiques">MATHÉMATIQUES</li>
+                <li data-tab="ia">IA</li>
+                <li data-tab="sciences">SCIENCES</li>
+                <li data-tab="histoire">HISTOIRE</li>
+                <li data-tab="auteurs">AUTEURS</li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="accueil" class="tab-content active">
+            <div class="hero">
+                <h2>SEMAINE DES PROJETS 2025 - OPEM</h2>
+                <h4>OPEM est une école scientifique et technologique</h4>
+                <p>Bienvenue sur notre plateforme éducative multidisciplinaire</p>
+                <button class="cta-button">Explorer</button>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="icon">🧮</div>
+                    <h3>Mathématiques</h3>
+                    <p>Découvrez les fondements et applications des mathématiques modernes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🤖</div>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Explorez le monde fascinant de l'IA et ses applications concrètes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🌍</div>
+                    <h3>Sciences & Environnement</h3>
+                    <p>Apprenez sur l'environnement et les défis écologiques actuels</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🏛️</div>
+                    <h3>Histoire & Géographie</h3>
+                    <p>Découvrez l'histoire riche et la géographie du Togo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mathematiques" class="tab-content">
+            <h2>Mathématiques</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>Fondements des Mathématiques</h3>
+                    <p>Les mathématiques constituent le langage fondamental des sciences et de la technologie. Elles offrent un cadre rigoureux pour décrire et comprendre le monde qui nous entoure. De l'algèbre à la géométrie, en passant par le calcul différentiel, les mathématiques nous permettent de modéliser des phénomènes complexes.</p>
+                    
+                    <h3>Application dans la Vie Quotidienne</h3>
+                    <p>Contrairement aux idées reçues, les mathématiques sont présentes partout dans notre quotidien : de la gestion de nos finances personnelles aux technologies que nous utilisons chaque jour. Comprendre les mathématiques, c'est acquérir un outil puissant pour résoudre des problèmes concrets.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/math-concept.jpg" alt="Concepts mathématiques">
+                </div>
+            </div>
+            <div class="content-grid reversed">
+                <div class="text-content">
+                    <h3>Les Mathématiques Avancées</h3>
+                    <p>L'étude des mathématiques avancées permet de développer des compétences essentielles en résolution de problèmes, en pensée logique et en raisonnement abstrait. Des domaines comme la théorie des nombres, l'analyse complexe ou la topologie ouvrent la porte à des applications innovantes dans divers secteurs.</p>
+                    
+                    <h3>Mathématiques et Technologie</h3>
+                    <p>Les mathématiques sont au cœur des avancées technologiques modernes. Que ce soit dans le développement d'algorithmes pour l'intelligence artificielle, la cryptographie pour la sécurité des données, ou la modélisation pour les prévisions climatiques, les concepts mathématiques sont indispensables aux innovations qui façonnent notre monde.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/math-tech.jpg" alt="Mathématiques et technologie">
+                </div>
+            </div>
+        </section>
+
+        <section id="ia" class="tab-content">
+            <h2>Intelligence Artificielle</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>Qu'est-ce que l'IA?</h3>
+                    <p>L'intelligence artificielle (IA) désigne la capacité d'une machine à simuler l'intelligence humaine, notamment l'apprentissage, le raisonnement et l'auto-correction. Les systèmes d'IA sont conçus pour analyser des données, reconnaître des modèles, tirer des conclusions et prendre des décisions avec un minimum d'intervention humaine.</p>
+                    
+                    <h3>Types d'Intelligence Artificielle</h3>
+                    <p>On distingue généralement l'IA faible (ou étroite), conçue pour des tâches spécifiques, et l'IA forte, qui posséderait une intelligence comparable à celle des humains. Aujourd'hui, la plupart des applications relèvent de l'IA faible, comme les assistants virtuels, les systèmes de recommandation ou les voitures autonomes.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/ai-concept.jpg" alt="Concept d'intelligence artificielle">
+                </div>
+            </div>
+            <div class="applications-grid">
+                <div class="app-card">
+                    <div class="app-icon">🏥</div>
+                    <h3>Santé</h3>
+                    <p>Diagnostic médical, découverte de médicaments, soins personnalisés</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🏫</div>
+                    <h3>Éducation</h3>
+                    <p>Enseignement adaptatif, évaluation automatisée, tutorat personnalisé</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🚗</div>
+                    <h3>Transport</h3>
+                    <p>Véhicules autonomes, optimisation du trafic, gestion de flottes</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🌾</div>
+                    <h3>Agriculture</h3>
+                    <p>Agriculture de précision, prévision des récoltes, détection de maladies</p>
+                </div>
+            </div>
+            <div class="content-grid reversed">
+                <div class="text-content">
+                    <h3>Défis et Considérations Éthiques</h3>
+                    <p>Le développement de l'IA soulève d'importantes questions éthiques concernant la vie privée, la sécurité des données, les biais algorithmiques et l'impact sur l'emploi. Il est crucial d'aborder ces défis pour garantir que l'IA soit développée et utilisée de manière responsable, équitable et bénéfique pour tous.</p>
+                    
+                    <h3>L'Avenir de l'IA</h3>
+                    <p>L'avenir de l'IA promet des avancées significatives dans de nombreux domaines, de la médecine personnalisée à la lutte contre le changement climatique. Cependant, il est essentiel de combiner progrès technologique et réflexion éthique pour que l'IA serve véritablement le bien commun et contribue à résoudre les grands défis de notre temps.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/ai-future.jpg" alt="Avenir de l'IA">
+                </div>
+            </div>
+        </section>
+
+        <section id="sciences" class="tab-content">
+            <h2>Sciences & Environnement</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>L'Importance de l'Environnement</h3>
+                    <p>L'environnement englobe l'ensemble des éléments naturels qui nous entourent et avec lesquels nous interagissons. La préservation de cet équilibre écologique est devenue l'un des enjeux majeurs du 21e siècle, face aux défis du changement climatique, de la pollution et de la perte de biodiversité.</p>
+                    
+                    <h3>Biodiversité en Afrique de l'Ouest</h3>
+                    <p>L'Afrique de l'Ouest abrite une biodiversité exceptionnelle, avec des écosystèmes variés allant des forêts tropicales aux savanes. Cette richesse biologique, cruciale pour l'équilibre écologique régional, est cependant menacée par la déforestation, le braconnage et l'expansion urbaine non maîtrisée.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/environment.jpg" alt="Environnement africain">
+                </div>
+            </div>
+            <div class="content-grid reversed">
+                <div class="text-content">
+                    <h3>Défis Environnementaux au Togo</h3>
+                    <p>Le Togo fait face à plusieurs défis environnementaux, notamment la déforestation, l'érosion côtière, la gestion des déchets et l'accès à l'eau potable. Ces problématiques nécessitent des solutions innovantes et durables, ainsi qu'une prise de conscience collective de l'importance de protéger les ressources naturelles.</p>
+                    
+                    <h3>Solutions Durables</h3>
+                    <p>Face à ces défis, diverses initiatives de développement durable sont mises en œuvre au Togo et dans la région. Ces projets visent à promouvoir les énergies renouvelables, l'agriculture durable, le reboisement et l'éducation environnementale, contribuant ainsi à la préservation de l'environnement pour les générations futures.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/sustainable-solutions.jpg" alt="Solutions environnementales durables">
+                </div>
+            </div>
+            <div class="applications-grid">
+                <div class="app-card">
+                    <div class="app-icon">☀️</div>
+                    <h3>Énergies Renouvelables</h3>
+                    <p>Solaire, éolien, biomasse et solutions adaptées au contexte africain</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🌱</div>
+                    <h3>Agriculture Durable</h3>
+                    <p>Techniques agricoles respectueuses de l'environnement et adaptées au climat local</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">♻️</div>
+                    <h3>Économie Circulaire</h3>
+                    <p>Gestion des déchets, recyclage et valorisation des ressources</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">💧</div>
+                    <h3>Gestion de l'Eau</h3>
+                    <p>Accès à l'eau potable, assainissement et conservation des ressources hydriques</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="histoire" class="tab-content">
+            <h2>Histoire et Géographie du Togo</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>Histoire Précoloniale</h3>
+                    <p>Avant la colonisation européenne, le territoire de l'actuel Togo était habité par diverses populations, notamment les Ewe, les Mina, les Kabyé et les Tem. Ces peuples avaient développé des structures politiques, sociales et économiques propres, avec des royaumes et chefferies dont certains ont laissé un riche héritage culturel.</p>
+                    
+                    <h3>Période Coloniale</h3>
+                    <p>Le Togo a d'abord été colonisé par l'Allemagne en 1884, devenant le "Togoland". Après la Première Guerre mondiale, le territoire a été divisé entre la France et le Royaume-Uni. La partie française est devenue le Togo actuel, qui a obtenu son indépendance le 27 avril 1960, sous la présidence de Sylvanus Olympio.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/togo-history.jpg" alt="Histoire du Togo">
+                </div>
+            </div>
+            <div class="content-grid reversed">
+                <div class="text-content">
+                    <h3>Géographie du Togo</h3>
+                    <p>Le Togo est un pays d'Afrique de l'Ouest qui s'étend sur une superficie d'environ 56 785 km². Il se caractérise par une diversité de paysages, allant des plaines côtières au sud aux collines et montagnes du nord. Le pays est bordé par le Ghana à l'ouest, le Bénin à l'est, le Burkina Faso au nord et l'océan Atlantique au sud.</p>
+                    
+                    <h3>Climat et Biodiversité</h3>
+                    <p>Le Togo bénéficie d'un climat tropical avec deux saisons des pluies dans le sud et une seule dans le nord. Cette diversité climatique favorise une riche biodiversité, avec des écosystèmes variés incluant des forêts tropicales, des savanes, des mangroves côtières et des zones humides abritant une faune et une flore diversifiées.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/togo-geography.jpg" alt="Géographie du Togo">
+                </div>
+            </div>
+            <div class="applications-grid">
+                <div class="app-card">
+                    <div class="app-icon">🏛️</div>
+                    <h3>Sites Historiques</h3>
+                    <p>Koutammakou, Palais de Lomé, villages traditionnels et patrimoine colonial</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🎭</div>
+                    <h3>Culture et Traditions</h3>
+                    <p>Festivals, danses traditionnelles, artisanat et patrimoine immatériel</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🏞️</div>
+                    <h3>Parcs Nationaux</h3>
+                    <p>Parc national de Fazao-Malfakassa, réserve de faune de Togodo et zones protégées</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">🏙️</div>
+                    <h3>Villes Principales</h3>
+                    <p>Lomé, Sokodé, Kara, Kpalimé et leur développement urbain</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="auteurs" class="tab-content">
+            <h2>Auteurs du Projet</h2>
+            <div class="team-intro">
+                <p>Ce projet éducatif a été réalisé par un groupe d'élèves passionnés de l'OPEM, dans le cadre de la Semaine des Projets. Notre équipe multidisciplinaire a travaillé avec enthousiasme pour créer cette plateforme de partage de connaissances dans les domaines des mathématiques, de l'intelligence artificielle, des sciences environnementales et de l'histoire togolaise.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/member1.jpg" alt="Membre de l'équipe 1">
+                    </div>
+                    <h3>GROUPE 1</h3>
+                    <p class="role">Chef de Projet</p>
+                    <p class="description">Passionné de mathématiques appliquées et d'intelligence artificielle, a coordonné les différentes phases du projet et contribué principalement au contenu sur l'IA.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/member2.jpg" alt="Membre de l'équipe 2">
+                    </div>
+                    <h3>GROUPE 2</h3>
+                    <p class="role">Responsable Contenu Mathématiques</p>
+                    <p class="description">Spécialiste en mathématiques fondamentales, a élaboré le contenu de la section Mathématiques et conçu les modèles explicatifs.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/member3.jpg" alt="Membre de l'équipe 3">
+                    </div>
+                    <h3> GROUPE 3 </h3>
+                    <p class="role">Expert en Sciences Environnementales</p>
+                    <p class="description">Engagé dans la protection de l'environnement, a développé la section Sciences & Environnement en mettant l'accent sur les défis écologiques du Togo.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/member4.jpg" alt="Membre de l'équipe 4">
+                    </div>
+                    <h3>COORDINATEURS DES PROJETS</h3>
+
+                    <p class="role">Experts en éducation </p>
+                    <p class="description">Passionné par l'histoire et la géographie du Togo, a rédigé la section Histoire et rassemblé la documentation historique.</p>
+                </div>
+            </div>
+            <div class="project-details">
+                <h3>Notre Démarche</h3>
+                <p>Notre équipe a adopté une approche collaborative pour ce projet, combinant recherche documentaire approfondie, entretiens avec des experts, et utilisation de technologies web modernes. Nous avons mis l'accent sur l'accessibilité de l'information et la qualité pédagogique du contenu, afin de proposer une ressource éducative adaptée à tous les niveaux.</p>
+                <h3>Remerciements</h3>
+                <p>Nous tenons à remercier nos professeurs et encadrants de l'OPEM pour leur soutien et leurs conseils précieux tout au long de ce projet. Nous remercions également tous ceux qui ont contribué directement ou indirectement à la réalisation de ce travail, notamment les experts qui ont accepté de partager leurs connaissances avec nous.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>OPEM</h4>
+                <p>École scientifique et technologique d'excellence</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#accueil">ACCUEIL</a></li>
+                    <li><a href="#mathematiques">MATHÉMATIQUES</a></li>
+                    <li><a href="#ia">IA</a></li>
+                    <li><a href="#sciences">SCIENCES</a></li>
+                    <li><a href="#histoire">HISTOIRE</a></li>
+                    <li><a href="#auteurs">AUTEURS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email">
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 OPEM - Semaine des Projets. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html> 
